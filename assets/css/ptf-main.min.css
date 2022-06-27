@@ -446,6 +446,7 @@
 .fz-230 {
     font-size: 10.375rem;
     letter-spacing: -0.0em;
+    margin-top: -100px;
 }
 .fz-130 {
     font-size: 8.125rem;
@@ -685,9 +686,9 @@
     color: var(--ptf-color-white);
 }
 .ptf-is--home-default section:first-of-type {
-    background-image: url(../img/home/default/main-image.png);
+    background-image: url(../img/home/Banner_SS_F_Resize.png);
     background-repeat: no-repeat;
-    background-position: calc(50vw - 100px) calc(50% + 150px);
+    background-position: calc(50vw - 100px) calc(5% + 150px);
 }
 .ptf-is--home-studio section:first-of-type {
     background-image: url(../img/root/home-studio-bubble-1.png);
@@ -5718,8 +5719,9 @@ p.form-submit {
     background-color: var(--ptf-accent-2);
 }
 .ptf-btn.ptf-btn--primary.ptf-btn--inversed {
-    color: var(--ptf-color-white);
-    background-color: var(--ptf-accent-2);
+    color: #fffff;
+    background-color: #000;
+    border-radius: 50px;
 }
 .ptf-btn.ptf-btn--primary.ptf-btn--inversed:hover {
     color: var(--ptf-color-white);
@@ -7551,12 +7553,12 @@ p.form-submit {
 }
 .ptf-testimonial__author {
     font-size: 1.5rem;
-    color: var(--ptf-author-color);
+    color: #000;
 }
 .ptf-testimonial__info {
     font-size: 0.875rem;
     margin-top: 0.625rem;
-    color: var(--ptf-info-color);
+    color: #000;
 }
 .ptf-testimonial__info span {
     color: var(--ptf-info-span-color);
@@ -7571,6 +7573,7 @@ p.form-submit {
     font-family: var(--ptf-primary-font);
     font-weight: 700;
     line-height: 1.33;
+    color: #000;
 }
 .ptf-testimonial--style-2 .ptf-testimonial__meta {
     margin-top: 4.6875rem;
